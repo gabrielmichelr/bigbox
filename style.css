@@ -1,0 +1,32 @@
+.container {
+        display : grid;
+        background: rgb(255, 145, 0);  
+        border: 10px solid black; 
+        text-align: center;
+
+}
+
+.header{
+   
+        display: flex;
+        background: red; 
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;  
+   border: 1px solid black;
+}
+
+.content{
+  flex-direction: row;
+flex-wrap: wrap;
+border : 5px solid blue;
+}
+
+.footer{
+  border: 10px solid green ;
+}
+.box{
+  display: grid;
+  background: rgb(47, 230, 184); 
+  border:10px solid   hsl(64, 93%, 48%);
+}
+
